@@ -1,4 +1,4 @@
-package jd_10_array_list;
+package jd10_array_list;
 import java.util.ArrayList;
 import java.util.Arrays;
 

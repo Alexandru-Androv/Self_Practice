@@ -1,6 +1,5 @@
-package jd_10_array_list;
+package jd10_array_list;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.ArrayList;
 
 public class RemoveDuplicates {

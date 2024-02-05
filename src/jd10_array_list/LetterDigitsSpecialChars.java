@@ -1,5 +1,5 @@
-package jd_10_array_list;
-import java.util.Arrays;
+package jd10_array_list;
+
 public class LetterDigitsSpecialChars {
     public static void main(String[] args) {
         String  str = "\"Wooden Spoon123!\"";
