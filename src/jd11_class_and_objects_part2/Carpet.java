@@ -1,10 +1,18 @@
 package jd11_class_and_objects_part2;
 
 public class Carpet {
-    double width;
-    double length;
-    double unitPrice;
-    boolean isPersian;
+    public double width;
+    public double length;
+    public double unitPrice;
+    public boolean isPersian;
+
+    public Carpet(double width, double length, double unitPrice, boolean isPersian){
+        this.width = width;
+        this.length = length;
+        this.unitPrice = unitPrice;
+        this.isPersian = isPersian;
+    }
+
     public double calcCost(){
         if (isPersian){
             double totalPrice = 200 + ((width*length) * unitPrice);
@@ -21,7 +29,8 @@ public class Carpet {
                 ", length=" + length +
                 ", unitPrice=" + unitPrice +
                 ", isPersian=" + isPersian +
-                '}';
+                ", calcCost=" + calcCost();
+                //'}';
     }
 }
 /*

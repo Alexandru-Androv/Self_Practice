@@ -1,9 +1,16 @@
 package jd11_class_and_objects_part2;
 
 public class Pizza {
-     String size;
-   int numberOfCheeseTopping;
-   int numberOfPeperoniTopping;
+    public  String size;
+   public int numberOfCheeseTopping;
+    public int numberOfPeperoniTopping;
+
+
+     public Pizza(String size, int numberOfCheeseTopping, int numberOfPeperoniTopping){
+         this.size = size;
+         this.numberOfCheeseTopping = numberOfCheeseTopping;
+         this.numberOfPeperoniTopping = numberOfPeperoniTopping;
+     }
 
     public int calcCost(){
         if(size.equalsIgnoreCase("small")){
@@ -26,7 +33,8 @@ public class Pizza {
                 "size='" + size + '\'' +
                 ", numberOfCheeseTopping=" + numberOfCheeseTopping +
                 ", numberOfPeperoniTopping=" + numberOfPeperoniTopping +
-                '}';
+                ",calcCost= " + calcCost();
+
     }
 }
 /*
