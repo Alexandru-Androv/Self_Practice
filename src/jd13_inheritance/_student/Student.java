@@ -51,8 +51,7 @@ public class Student {
         return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", gender='" + gender + '\'' +
-                '}';
+                ", gender='" + gender + '\'';
     }
 }
 /*

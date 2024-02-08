@@ -12,6 +12,11 @@ public class GraduateStudent extends Student1{
         System.out.println(super.getName() + " graduated at " + super.getSchoolName() +
                 " with grade " + super.getGrade());
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
 /*
 Create the following subclasses of the Student class:

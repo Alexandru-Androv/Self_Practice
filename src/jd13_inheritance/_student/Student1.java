@@ -43,14 +43,15 @@ public class Student1 extends Student{
     }
 
     public String getSchoolName() {
-        if (schoolName.isEmpty() || schoolName.isBlank() || schoolName == null){
-            System.err.println("School name can't be empty, blank or null");
-            System.exit(1);
-        }
+
         return schoolName;
     }
 
     public void setSchoolName(String schoolName) {
+        if (schoolName.isEmpty() || schoolName.isBlank() || schoolName == null){
+            System.err.println("School name can't be empty, blank or null");
+            System.exit(1);
+        }
         this.schoolName = schoolName;
     }
     public void study(){
@@ -68,12 +69,11 @@ public class Student1 extends Student{
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "{" +
+        return super.toString() +
                 "studentId='" + studentId + '\'' +
-                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                "\n fieldOfStudy='" + fieldOfStudy + '\'' +
                 ", grade=" + grade +
-                ", schoolName='" + schoolName + '\'' +
-                '}';
+                ", schoolName='" + schoolName + '\'';
     }
 }
 /*

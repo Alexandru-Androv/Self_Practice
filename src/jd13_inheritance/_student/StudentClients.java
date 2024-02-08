@@ -15,6 +15,12 @@ public class StudentClients {
                 06, "Java" );
         student2.study();
         System.out.println(student2);
+
+        System.out.println();
+
+        Undergraduated student3 = new Undergraduated("Vasy", 34, "male",
+                "223", "Programing", 'E',"");
+        System.out.println(student3);
     }
 
 }
