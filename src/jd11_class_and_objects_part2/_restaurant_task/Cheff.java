@@ -1,4 +1,4 @@
-package jd11_class_and_objects_part2._restaurant_task;
+/*package jd11_class_and_objects_part2._restaurant_task;
 
 public class Cheff {
     public String name;
