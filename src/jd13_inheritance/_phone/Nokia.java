@@ -4,6 +4,13 @@ public class Nokia extends IPhone {
     public Nokia(String brand, String model, String size,
                  double price, String color) {
     super(brand,model,size,price,color);
+
+    }
+    public void call(String phoneNumber){
+        System.out.println("calling from nokia the number " + phoneNumber);
+    }
+    public void text( String phoneNumber){
+        System.out.println("texting from nokia to the number " + phoneNumber);
     }
 
 

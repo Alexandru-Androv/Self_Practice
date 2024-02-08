@@ -6,6 +6,13 @@ public class Samsung extends IPhone{
     public Samsung(String brand, String model, String size, double price, String color) {
         super(brand, model, size, price, color);
     }
+    public void call(String phoneNumber){
+        System.out.println("calling from samsung the number " + phoneNumber);
+    }
+    public void text( String phoneNumber){
+        System.out.println("texting from samsung to the number " + phoneNumber);
+    }
+
 }
     /*Create a class named 'Samsung' with these specifications:
    Attributes:
