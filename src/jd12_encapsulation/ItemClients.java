@@ -1,4 +1,4 @@
-package jd12_encapsulation;
+/*package jd12_encapsulation;
 
 public class ItemClients {
     public static void main(String[] args) {
@@ -6,5 +6,7 @@ public class ItemClients {
         System.out.println(item1);
     }
 }
+
+ */
 
 

@@ -1,4 +1,4 @@
-package jd12_encapsulation;
+/*package jd12_encapsulation;
 
 public class Item {
     private String name;

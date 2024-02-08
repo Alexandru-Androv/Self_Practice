@@ -1,4 +1,4 @@
-package jd11_class_and_objects_part2._restaurant_task;
+/*package jd11_class_and_objects_part2._restaurant_task;
 import jd11_class_and_objects_part2._restaurant_task.Cheff;
 import jd11_class_and_objects_part2._restaurant_task.Server;
 import java.util.ArrayList;
