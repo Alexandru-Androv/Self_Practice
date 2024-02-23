@@ -6,16 +6,33 @@ import java.util.List;
 
 public class RemovePolindromes {
     public static void main(String[] args) {
+
         List<String> list = new ArrayList<>();
-        list.addAll(Arrays.asList("Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak",
-                "reviver", "racecar", "madam"));
+        list.addAll(Arrays.asList(
+                "Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak",
+                "reviver", "racecar", "madam"
+        ));
 
+        //   list.removeIf(p -> isPalindrome(p));
 
+        List<String> list2 = new ArrayList<>();
+
+        for (String eachString : list) {
+            if (!isPalindrome(eachString)) list2.add(eachString);
+        }
+        System.out.println(list2);
     }
-    public static boolean isPolindrome(String list){
 
+    public static boolean isPalindrome(String str) {
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+
+       return sb.toString().equalsIgnoreCase(str);
     }
 }
+
+
+
 /*
  Create a class named RemovePalindromes and write a program that removes all palindrome strings from a given list of strings.
    The removal should be performed without using the removeIf method.
